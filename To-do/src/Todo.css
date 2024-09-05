@@ -1,0 +1,149 @@
+.to-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7f6;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey !important;
+}
+
+.to-do h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-input input {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-input input[type="date"] {
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.form-input button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-input button:hover {
+    background-color: #0056b3;
+}
+
+ol {
+    padding-left: 0;
+    list-style-type: none;
+    width: 100%;
+    max-width: 500px;
+}
+
+ol li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: relative;
+    /* justify-content: space-between; */
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+/* ol li p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.9rem;
+/* }  */
+
+ol li .text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+ol li .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-right: 8px;
+}
+
+ol li .first {
+    display: flex;
+    flex-direction: column;
+}
+
+ol li .first .description{
+    color: grey;
+}
+
+ol li .second {
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+
+ol li .delete-button,
+ol li .complete-button {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+ol li .delete-button:hover,
+ol li .complete-button:hover {
+    background-color: #c82333;
+}
+
+ol li .complete-button {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+ol li .complete-button:hover {
+    background-color: #218838;
+}
