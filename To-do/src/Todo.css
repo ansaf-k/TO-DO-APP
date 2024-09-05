@@ -80,17 +80,11 @@ ol li {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     position: relative;
-    /* justify-content: space-between; */
     align-items: center;
     box-sizing: border-box;
 }
 
 
-/* ol li p {
-    margin: 5px 0;
-    color: #666;
-    font-size: 0.9rem;
-/* }  */
 
 ol li .text {
     font-size: 1.2rem;
@@ -110,6 +104,8 @@ ol li .first {
     display: flex;
     flex-direction: column;
 }
+
+
 
 ol li .first .description{
     color: grey;

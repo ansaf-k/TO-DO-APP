@@ -95,7 +95,7 @@ function Todo() {
                         <button
                             className="complete-button"
                             onClick={() => completeTask(index)}>
-                            {task.newStatus ? "Uncompleted":"Complete"}
+                            {task.newStatus ? "Undo":"Complete"}
                         </button>
 
                         <button
