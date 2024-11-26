@@ -10,8 +10,8 @@
 }
 
 .completed {
-    text-decoration: line-through;
     color: grey !important;
+    text-decoration: line-through;
 }
 
 .to-do h1 {

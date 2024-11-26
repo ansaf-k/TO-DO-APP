@@ -1,9 +1,11 @@
-// import './App.css';
-import Todo from './Todo';
+import './App.css';
+import Todo from './screens/Todo';
 
 function App() {
   return (
-    <Todo/>
+    <>
+      <Todo />
+    </>
   )
 }
 
